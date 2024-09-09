@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project by Maksim</title>
+    <style>
+        /* Установка общих стилей для полос */
+        .stripe {
+            width: 100%;
+            padding: 30px;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        /* Стили для каждой полосы */
+        .stripe-1 {
+            background-color: #004048;
+        }
+        .stripe-2 {
+            background-color: #117479;
+        }
+        .stripe-3 {
+            background-color: #ACCBC3;
+        }
+        .photos {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .photos img {
+            max-width: 30%;
+            margin: 10px;
+        }
+        .ftp-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #117479;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .ftp-button:hover {
+            background-color: #0a5657;
+        }
+    </style>
+</head>
+<body>
+    <!-- Первая полоса с текстом "project by Maksim" -->
+    <div class="stripe stripe-1">project by Maksim99090</div>
+    <!-- Вторая полоса с текстом "здесь есть боссей и блондинки присоединяйся к ним!" -->
+    <div class="stripe stripe-2">Присоединяйся к нам и наслаждайся невероятной атмосферой! Здесь тебя ждут обворожительные Кошечки,
+         готовые сделать твой вечер незабываемым. Не упусти шанс окунуться в мир красоты и умиления!</div>
+    <!-- Третья полоса с 6 фотографиями -->
+    <div class="stripe stripe-3">
+        <div class="photos">
+            <img src="https://i.pinimg.com/736x/60/97/cd/6097cdf3f403cdeb38d7a955839f2811.jpg" alt="Фотография 1">
+            <img src="https://i.pinimg.com/736x/51/c7/65/51c7657896c1c3d7ce8363d51a74975f.jpg" alt="Фотография 2">
+            <img src="https://i.pinimg.com/736x/db/93/c1/db93c10a9ac4c452a2c67aa9e8275ded.jpg" alt="Фотография 3">
+            <img src="https://i.pinimg.com/564x/cd/11/65/cd1165dc0468154a5ebc9966238ff292.jpg" alt="Фотография 4">
+            <img src="https://i.pinimg.com/736x/a5/ac/8d/a5ac8d3fce43491b6f5ec2ca9f43164b.jpg" alt="Фотография 5">
+            <img src="https://i.pinimg.com/564x/4c/af/66/4caf665397b4880401f74194493e6c1b.jpg" alt="Фотография 6">
+        </div>
+        <!-- Кнопка для перехода на FTP сервер -->
+        <a href="ftp://localhost/home123y" class="ftp-button">Перейти на FTP сервер</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+[init]
+	defaultBranch = none
+[fetch]
+	recurseSubmodules = false
+[transfer]
+	bundleURI = true
+[http "https://gitlab.com"]
+	sslCAInfo = /sayt/gitlabci.cd/builds/T5s_zcxUw/0/max6661/gitlabci.cd.tmp/CI_SERVER_TLS_CA_FILE

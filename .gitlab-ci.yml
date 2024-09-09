@@ -1,0 +1,12 @@
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  only:
+    - main
+  script:
+    - cd /sayt/gitlabci.cd
+    - git pull origin main
+    - docker compose down
+    - docker compose up -d --build
